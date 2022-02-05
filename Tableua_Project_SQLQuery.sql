@@ -17,8 +17,7 @@ Select location, SUM(cast(new_deaths as int)) as TotalDeathCount
 From PortfolioProject..CovidDeaths
 --Where location like '%states%'
 Where continent is null 
-and location not in ('World', 'European Union', 'International','High income',
-'Lower middle income','Low income','upper middle income')
+and location not in ('World', 'European Union', 'International')
 Group by location
 order by TotalDeathCount desc
 --3.
