@@ -1,5 +1,7 @@
 /*
 Queries used for Tableau Project
+
+link for visualization:https://public.tableau.com/app/profile/rahul.patel7826/viz/CovidDashboard_16440473851170/Dashboard1
 */
 -- 1. 
 Select SUM(new_cases) as total_cases, SUM(cast(new_deaths as int)) as total_deaths, 
